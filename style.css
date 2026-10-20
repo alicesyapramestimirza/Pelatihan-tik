@@ -2,6 +2,8 @@ body {
     background-color: #FF00FF; /* Warna magenta*/
     font-family: Arial, sans-serif; /* Jenis huruf yang bersih dan mudah dipahami */
     color: #191970; /* Warna teks utama (Biru Gelap) */
+    margin: 0;
+    padding: 20px;
 }
 
 .kartu-profil {
@@ -10,12 +12,16 @@ body {
     background-color: white;
     border-radius: 15px; /* Membuat sudut menjadi melengkung */
     box-shadow: 0 4px 8px rgba(0,0,0,0,1); /* Efek bayangan */
+    text-alight: center;
+    box-sizing: border-box;
 }
 |
 
 .kartu-profil img {
      width: 150px;
+     hight: 150px;
      border-radius: 50%; /* Trik untuk membuat gambar persegi menjadi lingkaran sempurna */
+     object-fit: cover;
 }
 .kartu-profil {
     /* ... (kode dari slide sebelumnya) ... */
